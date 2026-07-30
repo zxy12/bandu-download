@@ -1,4 +1,4 @@
-const DOWNLOAD_URL = "https://github.com/zxy12/bandu-reader/releases";
+const DOWNLOAD_URL = "https://github.com/zxy12/bandu-download/releases";
 
 const features = [
   ["保留原书", "不重排正文，竖排、配图和书籍自己的字体都按原样呈现。"],
