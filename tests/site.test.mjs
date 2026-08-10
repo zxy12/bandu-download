@@ -17,6 +17,12 @@ test("download actions point to the public GitHub releases page", () => {
   assert.equal(releaseLinks.length, 2);
 });
 
+test("page advertises the current stable release", () => {
+  assert.match(html, /Release 1\.3\.0/);
+  assert.match(html, /Bandu-v1\.3\.0-macOS-Apple-Silicon\.dmg/);
+  assert.doesNotMatch(html, /原型|Prototype/);
+});
+
 test("all local page assets exist and CSS is self-contained", async () => {
   await readFile(new URL("../og.png", import.meta.url));
   assert.match(css, /:root\s*\{/);

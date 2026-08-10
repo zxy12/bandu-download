@@ -22,7 +22,7 @@ GitHub Releases 提供。
 
 ## 当前版本
 
-- 版本：`v1.2.0`
+- 版本：`v1.3.0`
 - 平台：macOS 11 或更高版本，Apple Silicon
 - 安全：Developer ID Application 签名、Apple Notary Service 公证
-- 下载：[Bandu-v1.2.0-macOS-Apple-Silicon.dmg](https://github.com/zxy12/bandu-download/releases/download/v1.2.0/Bandu-v1.2.0-macOS-Apple-Silicon.dmg)
+- 下载：[Bandu-v1.3.0-macOS-Apple-Silicon.dmg](https://github.com/zxy12/bandu-download/releases/download/v1.3.0/Bandu-v1.3.0-macOS-Apple-Silicon.dmg)
