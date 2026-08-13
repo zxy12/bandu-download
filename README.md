@@ -20,9 +20,14 @@ npm test
 页面入口是 `index.html`，样式位于 `styles.css`。发布安装包通过本仓库的
 GitHub Releases 提供。
 
+## 法律页面
+
+- [服务条款](https://zxy12.github.io/bandu-download/terms.html)
+- [隐私说明](https://zxy12.github.io/bandu-download/privacy.html)
+
 ## 当前版本
 
-- 版本：`v1.3.0`
+- 版本：`v2.0.0`
 - 平台：macOS 11 或更高版本，Apple Silicon
 - 安全：Developer ID Application 签名、Apple Notary Service 公证
-- 下载：[Bandu-v1.3.0-macOS-Apple-Silicon.dmg](https://github.com/zxy12/bandu-download/releases/download/v1.3.0/Bandu-v1.3.0-macOS-Apple-Silicon.dmg)
+- 下载：[Bandu-v2.0.0-macOS-Apple-Silicon.dmg](https://github.com/zxy12/bandu-download/releases/download/v2.0.0/Bandu-v2.0.0-macOS-Apple-Silicon.dmg)
