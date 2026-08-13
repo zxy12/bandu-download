@@ -16,12 +16,13 @@ test("static product page contains its essential metadata and sections", () => {
 
 test("download actions point to the public GitHub releases page", () => {
   const releaseLinks = html.match(/https:\/\/github\.com\/zxy12\/bandu-download\/releases/g) ?? [];
-  assert.equal(releaseLinks.length, 2);
+  assert.equal(releaseLinks.length, 3);
 });
 
 test("page advertises the current stable release", () => {
-  assert.match(html, /Release 2\.0\.0/);
-  assert.match(html, /Bandu-v2\.0\.0-macOS-Apple-Silicon\.dmg/);
+  assert.match(html, /Release 2\.0\.1/);
+  assert.match(html, /Bandu-v2\.0\.1-macOS-Apple-Silicon\.dmg/);
+  assert.match(html, /api\.github\.com\/repos\/\$\{repo\}\/releases\/latest/);
   assert.doesNotMatch(html, /原型|Prototype/);
 });
 
